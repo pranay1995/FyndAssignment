@@ -1,10 +1,17 @@
-# FyndAssignment
+# API Testing framework
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:Project name      : **Rest API Framework**
-:Purpose           : CRUD operations on APIs of https://jsonplaceholder.typicode.com/
-:CRUD operations   : GET,POST,DELETE,PUT
-:Targeted resources: Users,posts,albums,comments
-:Technolgy         : RestAssured JAVA API, Maven, junit, Gherkins based test cases, cucumber reporting
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Summary: The BDD based API testing framework to perform CRUD operations.
+BDD framework for testing API's and CRUD operations on resources from (https://jsonplaceholder.typicode.com/)
+
+### Targeted resources:
+* users:    (https://jsonplaceholder.typicode.com/users)
+* posts:    (https://jsonplaceholder.typicode.com/posts)
+* comments: (https://jsonplaceholder.typicode.com/comments)
+* albums:   (https://jsonplaceholder.typicode.com/albums)
+
+### Implementation details:
+#### Technical details:
+* Tools:        Eclipse IDE
+* Framework:    RestAssured JAVA API, Unit
+* Test scripts: Gherkin
+* Reporting:    JSON, [Cucumber report](https://github.com/damianszczepanik/cucumber-reporting)
+* Build:        Maven
