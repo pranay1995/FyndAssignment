@@ -17,7 +17,7 @@ BDD framework for testing API's and CRUD operations on resources from (https://j
 * Build:        Maven
 
 #### Scenarios implemented
-All scenarios are implemented in Gherkin under userOperations.feature
+All scenarios are implemented in Gherkin under [userOperations.feature](https://github.com/pranay1995/FyndAssignment/blob/63b2fa22508a3644de326834095af81e81fe85fc/APIFramework/src/test/java/features/userOperations.feature)
 * Create new user
 * Delete existing user: Positive test
 * Delete non-existing user: Negative test
@@ -26,3 +26,8 @@ All scenarios are implemented in Gherkin under userOperations.feature
 * Create new post for existing user: Positive test
 * Create new post for non-exisiting user: Negative test
 * Update post which does not exist: Negative test
+
+#### JSON payload for PUT/POST operation
+JSON are programmed using POJO classes. No external .json files are prepared. 
+Data mentioned in feature file refered at run time by gherkins steps and stepDefinition class methods.
+POJO package has classes to create json payload using getters & setters (encapsulated) e.g. AddUser, AddPost etc
