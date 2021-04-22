@@ -49,6 +49,7 @@ e.g. [AddUser](https://github.com/pranay1995/FyndAssignment/blob/9ee415ee1009222
 * Create new user:  **mvn test verify -Dcucumber.options="--tags @AddUser"**
 * To test all positive scenarios use tag **@PositiveTest**
 * To test all negative scenarios use tag **@NegativeTest**
+* To check with multiple tags use **'@DeleteUser and @NegativeTest'**
 #### Refer below table for tags to run individual scenario
 Scenario            | Tag
 ------------------- | -------------
@@ -62,4 +63,6 @@ Update post         | @UpdatePost
 * Cucumber-HTML-Report: **{\FyndAssignment\APIFramework\target\cucumber-html-reports\report-feature_########.html}**
 * Cucumber-JSON-Report: **{\FyndAssignment\APIFramework\target\jsonReports\cucumber-report.json}**
 * Execution logs      : **{\FyndAssignment\APIFramework\logging.txt}**
-
+- - - -
+## Happy Testing !!:thumbsup:
+# Thanks
