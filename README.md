@@ -39,11 +39,24 @@ e.g. [AddUser](https://github.com/pranay1995/FyndAssignment/blob/9ee415ee1009222
 ### Pre-requisite
 1. Install Maven in your system
 2. Download this project or clone repository in your system
-3. Locate **\FyndAssignment\APIFramework\** path
+3. Locate **{FyndAssignment\APIFramework}** path
 4. Launch command prompt
-5. change directory to above path using command **cd path**
+5. change directory to above path using command **"cd path"**
 #### Commands to run project/test
-1. To compile build **mvn compile**
-2. To run whole build including all test featues use **"mvn test verify"**. Note: Verify command is must to generate cucumber HTML report
+1. To compile build **"mvn compile"**
+2. To run whole build including all test featues use **"mvn test verify"**. *Note: Verify command is must to generate cucumber HTML report*
 #### Commands to test specific scenario listed above
-1. Create new user: **mvn test verify -Dcucumber.options="--tags @AddUser"**
+* Create new user:  **mvn test verify -Dcucumber.options="--tags @AddUser"**
+* To test all positive scenarios use tag **@PositiveTest**
+* To test all negative scenarios use tag **@NegativeTest**
+- - - -
+Scenario            | Tag
+------------------- | -------------
+Create new user     | @AddUser
+Delete user         | @DeleteUser
+Fetch user detais   | @GetUserDetails
+Update user details | @UpdateUserDetails
+Create new post     | @AddPost
+Update post         | @UpdatePost
+
+
