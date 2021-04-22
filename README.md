@@ -49,7 +49,7 @@ e.g. [AddUser](https://github.com/pranay1995/FyndAssignment/blob/9ee415ee1009222
 * Create new user:  **mvn test verify -Dcucumber.options="--tags @AddUser"**
 * To test all positive scenarios use tag **@PositiveTest**
 * To test all negative scenarios use tag **@NegativeTest**
-* To check with multiple tags use **'@DeleteUser and @NegativeTest'**
+* To check with multiple tags: e.g. **'@DeleteUser and @NegativeTest'**
 #### Refer below table for tags to run individual scenario
 Scenario            | Tag
 ------------------- | -------------
