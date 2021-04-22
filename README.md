@@ -28,6 +28,8 @@ All scenarios are implemented in Gherkin under [userOperations.feature](https://
 * Update post which does not exist: Negative test
 
 #### JSON payload for PUT/POST operation
-JSON are programmed using POJO classes. No external .json files are prepared. 
-Data mentioned in feature file refered at run time by gherkins steps and stepDefinition class methods.
-POJO package has classes to create json payload using getters & setters (encapsulated) e.g. AddUser, AddPost etc
+* JSON are programmed using POJO classes. No external .json files are prepared. 
+* Data mentioned in feature file refered at run time by gherkins steps and stepDefinition class methods.
+* POJO package has classes to create json payload using getters & setters (encapsulated) 
+e.g. [AddUser](https://github.com/pranay1995/FyndAssignment/blob/9ee415ee1009222d66e2ffff69cd983aa1e1707e/APIFramework/src/main/java/pojo/AddUser.java),[AddPost]
+(https://github.com/pranay1995/FyndAssignment/blob/9ee415ee1009222d66e2ffff69cd983aa1e1707e/APIFramework/src/main/java/pojo/AddPost.java)
