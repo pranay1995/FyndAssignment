@@ -49,7 +49,7 @@ e.g. [AddUser](https://github.com/pranay1995/FyndAssignment/blob/9ee415ee1009222
 * Create new user:  **mvn test verify -Dcucumber.options="--tags @AddUser"**
 * To test all positive scenarios use tag **@PositiveTest**
 * To test all negative scenarios use tag **@NegativeTest**
-- - - -
+#### Refer below table for tags to run individual scenario
 Scenario            | Tag
 ------------------- | -------------
 Create new user     | @AddUser
@@ -58,5 +58,8 @@ Fetch user detais   | @GetUserDetails
 Update user details | @UpdateUserDetails
 Create new post     | @AddPost
 Update post         | @UpdatePost
-
+#### Check below paths in clone repository to view reports/results post execution
+* Cucumber-HTML-Report: **{\FyndAssignment\APIFramework\target\cucumber-html-reports\report-feature_########.html}**
+* Cucumber-JSON-Report: **{\FyndAssignment\APIFramework\target\jsonReports\cucumber-report.json}**
+* Execution logs      : **{\FyndAssignment\APIFramework\logging.txt}**
 
