@@ -15,3 +15,6 @@ BDD framework for testing API's and CRUD operations on resources from (https://j
 * Test scripts: Gherkin
 * Reporting:    JSON, [Cucumber report](https://github.com/damianszczepanik/cucumber-reporting)
 * Build:        Maven
+
+#### Scenarios implemented in feature file
+* Add new user: POST 
